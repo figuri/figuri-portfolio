@@ -46,6 +46,7 @@ a {
     width: 50%;
     border-radius: 15px;
     margin-top: 50px;
+    border: 20px solid darkgreen;
 }
 
 header h1 {
@@ -101,10 +102,24 @@ article h2 {
     margin-right: 50px;
     margin-left: 50px;
     margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 15px;
+    background-color: darkslategrey;
 }
 
-.card {
+.CSS,
+.Jquery,
+.JS,
+.SEO,
+.horiseon {
+    border:10px solid green;
+    border-radius: 15px;
     float: right;
+    display: flex;
+}
+
+.horiseon {
+    float: left;
 }
 
 body {
