@@ -8,7 +8,7 @@ header {
     display:inline-block;
     padding: 15px;
     background-color:rgb(4, 59, 32);
-    color:lightslategrey;
+    color:chartreuse;
     margin-right: 10px;
     padding-top: 15px;
     width: 100%;
@@ -29,7 +29,7 @@ header nav ul li {
 }
 
 a {
-    color:lightslategrey;
+    color:chartreuse;
     margin-bottom: 20px;
 }
 
@@ -150,7 +150,7 @@ article h2 {
     background-size:cover;
 }
 
-div h2 {
+div h2, div h2 a {
     color:chartreuse;
     padding-left: 10px;
     padding-top: 5px;
@@ -160,9 +160,8 @@ body {
     background-color: grey;
 }
 
-#Contact-me {
-    color:black;
-    float: center;
-    font-size: 20px;
-    line-height: center;
+footer {
+    border: solid rgb(4, 59, 32);
+    justify-content: center;
+    display: flex;
 }
