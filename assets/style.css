@@ -89,31 +89,26 @@ article h2 {
     
 }
 
-.Horiseon {
-    width: 700px;
-    height: 700px;
-    border: 15px solid darkgreen;
+.horiseon {
+    width: 600px;
+    height: 400px;
 }
 
-.CSS,
-.Jquery,
-.JavaScript,
-.SEO {
-    width: 300px;
+.Projects {
+    height: 700px;
     border: 15px solid darkgreen;
     padding: 20px;
-    margin: 10px;
-    display: inline;
-    background-color: lightslategray;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+.card {
     float: right;
 }
 
 body {
     background-color: grey;
-}
-
-.Projects {
-    display: inline;
 }
 
 #Contact-me {
