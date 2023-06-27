@@ -37,6 +37,7 @@ a {
     width: 300px;
     height: 400px;
     border-radius: 20px;
+    border: 5px solid rgb(4, 59, 32);
 }
 
 .center {
@@ -90,45 +91,69 @@ article h2 {
     
 }
 
-.horiseon {
-    width: 700px;
-    height: 500px;
-}
-
-.Projects {
-    height: 700px;
-    border: 15px solid darkgreen;
-    padding: 20px;
+.container {
+    display: flex;
+    justify-content: center;
+    border: 10px solid rgb(4, 59, 32);
+    border-radius: 15px;
+    height: 660px;
+    width: 1500px;
+    float: right;
     margin-right: 50px;
-    margin-left: 50px;
-    margin-top: 70px;
-    margin-bottom: 70px;
-    border-radius: 15px;
     background-color: darkslategrey;
-    position: relative;
 }
 
-.CSS,
-.Jquery,
-.JS,
-.SEO,
-.horiseon {
-    border:10px solid green;
-    border-radius: 15px;
-    position: relative;
+.card {
+    background-color:rgb(4, 59, 32);
+    height:250px;
+    width:250px;
+    margin:10px;
+    border-radius: 10px;
 }
 
-.CSS {
-    top: 10px;
-    right: 10px;
-    left: 800px;
-    bottom: 1200px;
-    position: relative;
+.big-pic {
+    height: 600px;
+    width: 600px;
 }
 
-.horiseon, h4 {
-    position: relative;
-    top: 50px;
+.card-image {
+    height: 200px;
+    margin:5px;
+}
+
+.big-pic .site-1{
+    height:525px;
+}
+
+.site-1 {
+    background-image: url(./Screenshot\ \(9\).png);
+    background-size:cover;
+}
+
+.site-2 {
+    background-image: url(./CSS\ placeholder.jpg);
+    background-size:cover;
+}
+
+.site-3 {
+    background-image: url(./JS\ placeholder.jpg);
+    background-size:cover;
+}
+
+.site-4 {
+    background-image: url(./Jquery\ Placeholder.jpg);
+    background-size:cover;
+}
+
+.site-5 {
+    background-image: url(./SEO\ placeholder.jpg);
+    background-size:cover;
+}
+
+div h2 {
+    color:chartreuse;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 
 body {
