@@ -92,28 +92,39 @@ article h2 {
 }
 
 .container {
-    display: flex;
-    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
     border: 10px solid rgb(4, 59, 32);
     border-radius: 15px;
-    height: 660px;
-    width: 1500px;
-    float: right;
-    margin-right: 50px;
     background-color: darkslategrey;
+    height: 1200px;
+    width: 700px;
+    margin-left: 450px;
+    margin-right: 50px;
+    margin-bottom: 100px;
 }
 
 .card {
     background-color:rgb(4, 59, 32);
     height:250px;
     width:250px;
-    margin:10px;
     border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 55px;
 }
 
 .big-pic {
-    height: 600px;
-    width: 600px;
+    background-color:rgb(4, 59, 32);
+    border-radius: 10px;
+    background-color:rgb(4, 59, 32);
+    height:500px;
+    width:500px;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin-left: 80px;
+    margin-top: 40px;
 }
 
 .card-image {
@@ -121,13 +132,10 @@ article h2 {
     margin:5px;
 }
 
-.big-pic .site-1{
-    height:525px;
-}
-
 .site-1 {
     background-image: url(./Screenshot\ \(9\).png);
     background-size:cover;
+    height: 90%;
 }
 
 .site-2 {
@@ -154,6 +162,7 @@ div h2, div h2 a {
     color:chartreuse;
     padding-left: 10px;
     padding-top: 5px;
+    text-align: center;
 }
 
 body {
@@ -161,7 +170,11 @@ body {
 }
 
 footer {
-    border: solid rgb(4, 59, 32);
-    justify-content: center;
-    display: flex;
-}
+    padding: 15px;
+    background-color:rgb(4, 59, 32);
+    color:chartreuse;
+    margin-right: 10px;
+    padding-top: 15px;
+    width: 100%;
+  }
+  
