@@ -91,18 +91,27 @@ article h2 {
     
 }
 
+section h1 {
+    color: chartreuse;
+    font-size: 60px;
+    margin-left: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 5px solid chartreuse;
+}
+
 .container {
     display:flex;
     flex-wrap: wrap;
-    gap:10px;
-    border: 10px solid rgb(4, 59, 32);
+    gap:40px;
+    border: 10px solid darkgreen;
     border-radius: 15px;
     background-color: darkslategrey;
-    height: 1200px;
+    height: 1400px;
     width: 700px;
     margin-left: 450px;
     margin-right: 50px;
     margin-bottom: 100px;
+    margin-top: 80px;
 }
 
 .card {
@@ -115,6 +124,12 @@ article h2 {
     margin-left: 55px;
 }
 
+.card:hover {
+    background-color: rgb(rgb(36, 30, 30), #1a1613af, rgb(28, 28, 34));
+    color:azure;
+    transform: scale(1.03);
+}
+
 .big-pic {
     background-color:rgb(4, 59, 32);
     border-radius: 10px;
@@ -124,7 +139,13 @@ article h2 {
     border-radius: 10px;
     padding-top: 20px;
     margin-left: 80px;
-    margin-top: 40px;
+    margin-top:-10px;
+}
+
+.big-pic:hover {
+    background-color: rgb(rgb(36, 30, 30), #1a1613af, rgb(28, 28, 34));
+    color:azure;
+    transform: scale(1.01);
 }
 
 .card-image {
@@ -170,11 +191,18 @@ body {
 }
 
 footer {
-    padding: 15px;
     background-color:rgb(4, 59, 32);
     color:chartreuse;
-    margin-right: 10px;
-    padding-top: 15px;
-    width: 100%;
-  }
+    display: flex;
+    justify-content: center;
+}
+
+aside h1 {
+    
+}
+
   
+aside ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
