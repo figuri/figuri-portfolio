@@ -12,11 +12,11 @@ ___
 |Github| [https://github.com](https://github.com)
 
 ## **Description**
-[Visit the deployed site]()
+[Visit the deployed site](https://figuri.github.io/figuri-portfolio/)
 
 ### *-I made a Portfolio*
 
-Using newly learned skills and applying no small amount of google fu I made a webpage to display the fruits of my labor. When you view the page you can see navigation links at the top that will take you to different corresponding points on the page.
+Using newly learned skills and applying no small amount of google fu I made a webpage to display the fruits of my labor. When you view the page you can see navigation links at the top that will take you to different corresponding points on the page. Also clicking on an image located in the projects section will take you to one of my other finished webpages.
 
 ### Complications Arise
 
