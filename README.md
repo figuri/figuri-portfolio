@@ -16,7 +16,9 @@ ___
 
 ### *-I made a Portfolio*
 
-Using newly learned skills and applying no small amount of google fu I made a webpage to display the fruits of my labor. When you view the page you can see navigation links at the top that will take you to different corresponding points on the page. Also clicking on an image located in the projects section will take you to one of my other finished webpages.
+Using newly learned skills and applying no small amount of google fu I made a webpage to display the fruits of my labor. When you view the page you can see navigation links at the top that will take you to different corresponding points on the page. Also clicking on an image located in the projects section will take you to one of my other finished webpages. take a look below at the finished and deployed "Figuri Portfolio"
+
+![Alt text](<Screenshot (11).png>)
 
 ### Complications Arise
 
