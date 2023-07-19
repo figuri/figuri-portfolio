@@ -166,26 +166,6 @@ section h1 {
     margin-left:5px
 }
 
-.site-2 {
-    background-image: url(./CSS\ placeholder.jpg);
-    background-size:cover;
-}
-
-.site-3 {
-    background-image: url(./JS\ placeholder.jpg);
-    background-size:cover;
-}
-
-.site-4 {
-    background-image: url(./Jquery\ Placeholder.jpg);
-    background-size:cover;
-}
-
-.site-5 {
-    background-image: url(./SEO\ placeholder.jpg);
-    background-size:cover;
-}
-
 .card-body {
     background-color: rgb(4, 59, 32);
     height:50%;
