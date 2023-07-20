@@ -7,115 +7,134 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Samuel Thomas</title>
 </head>
-<div class="flexy">
 
-    <body>
-        <header>
-            <h1>My Portfolio</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#About-me">About me</a>
-                    </li>
-                    <li>
-                        <a href="#Projects">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#Contact-me">Contact me</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-
-        <div class="container">
-            <img src="./assets/images/Portfolio-header.jpg" class="center">
-            <article id="About-me">
-                <img src="./assets/images/Me-in-a-suit.jpg" class="top-right">
-                <h2>About me:</h2>
-                <p>
-                    Hello, My name is Samuel Thomas.
-                    I am a web developer specializing in website design and functionality.
-                    For many years I have been a basketball fan, I enjoy games as an audience member and on the court
-                    daily.
-                    Growing up in East bay California; I've spent countless hours on the beach and many mornings
-                    enjoying the many wonders of San Francisco.
-                </p>
-                <p>
-                    I love chess, Anime, and video games.
-                    Most of my days are spent with my brother; my family is very important to me! Most people that know
-                    me will tell you I am extroverted and make freinds easily.
-                    I am extremely tall (6 foot 9 to be exact).
-                    Contradictory to what my friends say though I like to think I the opposite.
-                    I've worked in many different professions and love to talk about them.
-                </p>
-            </article>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#About-me">About me</a>
+                </li>
+                <li>
+                    <a href="#Projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#Contact-me">Contact me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <div class="card">
+                    <img src="./assets/images/Portfolio-header.jpg">
+                </div>
+            </div>
         </div>
-
-
-        <main>
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="card has-background-dark">
-                            <div class="card-content">
-                                <p class="title is-3 has-text-white">
-                                    Weather Dashboard
-                                </p>
-                                <img src="./assets/images/4-cast-app.png" alt="screenshot of weather dashboard">
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="card has-background-dark">
-                                <div class="card-content">
-                                    <p class="title is-3 has-text-white">
-                                        Work Day Scheduler
-                                    </p>
-                                    <img src="./assets/images/Planit.png" alt="screenshot of work day scheduler">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="card has-background-dark">
-                                <div class="card-content">
-                                    <p class="title is-3 has-text-white">
-                                        Password Generator
-                                    </p>
-                                    <img src="./assets/images/password-generator.png" alt="screenshot of password generator">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="card has-background-dark">
-                                <div class="card-content">
-                                    <p class="title is-3 has-text-white">
-                                        Code Quiz
-                                    </p>
-                                    <img src="./assets/images/quiz.png" alt="screenshot of code quiz">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="card has-background-dark">
-                                <div class="card-content">
-                                    <p class="title is-3 has-text-white">
-                                        Skyfinder
-                                    </p>
-                                    <img src="./assets/images/Skyfinder.png" alt="screenshot of Skyfinder App">
-                                </div>
+    </div>
+    <div class="container">
+        <div class="columns" id="ABT-cont">
+            <div class="column">
+                <h1 id="meName">Samuel Thomas</h1>
+                <h2 id="meJob">Web Developer</h2>
+                <article class="has-background-dark" id="About-me">
+                    <img src="./assets/images/Me-in-a-suit.jpg" class="is-rounded top-right">
+                    <h2>About me:</h2>
+                    <p>
+                        Hello, My name is Samuel Thomas.
+                        I am a web developer specializing in website design and functionality.
+                        For many years I have been a basketball fan, I enjoy games as an audience member and on
+                        the
+                        court
+                        daily.
+                        Growing up in East bay California; I've spent countless hours on the beach and many
+                        mornings
+                        enjoying the many wonders of San Francisco.
+                    </p>
+                    <p>
+                        I love chess, Anime, and video games.
+                        Most of my days are spent with my brother; my family is very important to me! Most
+                        people that
+                        know
+                        me will tell you I am extroverted and make freinds easily.
+                        I am extremely tall (6 foot 9 to be exact).
+                        Contradictory to what my friends say though I like to think I the opposite.
+                        I've worked in many different professions and love to talk about them.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="container" id="Projects">
+            <h2>Projects</h2>
+            <div class="columns">
+                <div class="column">
+                    <div id="sml-proj" class="card has-background-dark">
+                        <div class="card-content">
+                            <a href="https://figuri.github.io/4-cast-app/" class="title is-2 has-text-white">
+                                Weather Dashboard
+                            </a>
+                            <img class="linkimg" src="./assets/images/4-cast-app.png"
+                                alt="screenshot of weather dashboard">
                         </div>
                     </div>
-        </main>
+                    <div class="column">
+                        <div id="sml-proj" class="card has-background-dark">
+                            <div class="card-content">
+                                <a href="https://figuri.github.io/PLANIT/" class="title is-2 has-text-white">
+                                    Work Day Scheduler
+                                </a>
+                                <img class="linkimg" src="./assets/images/Planit.png"
+                                    alt="screenshot of work day scheduler">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div id="sml-proj" class="card has-background-dark">
+                            <div class="card-content">
+                                <a href="" class="title is-2 has-text-white">
+                                    Password Generator
+                                </a>
+                                <img class="linkimg" src="./assets/images/password-generator.png"
+                                    alt="screenshot of password generator">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div id="sml-proj" class="card has-background-dark">
+                            <div class="card-content">
+                                <a href="https://figuri.github.io/Quizzo/" class="title is-2 has-text-white">
+                                    Code Quiz
+                                </a>
+                                <img class="linkimg" src="./assets/images/quiz.png" alt="screenshot of code quiz">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card has-background-dark">
+                            <div id="lrg-proj" class="card-content">
+                                <a class="title is-3 has-text-white">
+                                    Skyfinder
+                                </a>
+                                <img src="./assets/images/Skyfinder.png"
+                                    alt="screenshot of Skyfinder App">
+                            </div>
+                        </div>
+                    </div>
+    </main>
 
-        <footer>
-            <h1>Contact me</h1>
-            <div class="contacts">
-                <a href="mailto:samtisme@icloud.com" class="email">Samtisme@icloud.com</a>
-                <a href="https://www.linkedin.com/in/samuel-thomas-b82614183/" class="linkedin">Linkedin</a>
-                <a href="https://github.com/figuri/" class="github">Github</a>
-            </div>
-        </footer>
-        <script src="./assets/js/script.js"></script>
-    </body>
-</div>
+    <footer id="Contact-me">
+        <h1>Contact me</h1>
+        <div class="contacts">
+            <a href="mailto:samtisme@icloud.com" class="email">Samtisme@icloud.com</a>
+            <a href="https://www.linkedin.com/in/samuel-thomas-b82614183/" class="linkedin">Linkedin</a>
+            <a href="https://github.com/figuri/" class="github">Github</a>
+        </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
 
 </html>
