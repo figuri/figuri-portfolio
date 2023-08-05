@@ -1,3 +1,9 @@
+body {
+    background-color: rgb(3, 60, 59);
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: inline-block;
     padding: 15px;
@@ -26,29 +32,43 @@ a {
     color: chartreuse;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border-radius: 15px;
-    margin-top: 50px;
-    border: 20px solid darkgreen;
-}
-
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-article .top-right {
+.top-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
-    margin-right: 20px;
-    float: right;
 }
 
-#ABT-cont {
-    margin: 60px;
+.top-right {
+    margin: 20px;
+    height: 25%;
+    width: 25%;
+    border: solid 10px darkgreen;
+    border-radius: 50%;
+}
+
+.top-left h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: chartreuse;
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+.top-left h1 span {
+    color: chartreuse;
+    font-size: 20px;
+}
+
+.About-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
 article {
@@ -59,7 +79,10 @@ article {
     font-size: 25px;
     padding: 20px;
     margin: 50px;
+    max-width: 1000px;
 }
+
+
 
 article p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -74,36 +97,9 @@ article h2 {
     font-size: 40px;
 }
 
-section h1 {
-    color: chartreuse;
-    font-size: 45px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.container {
-    border: 10px solid darkgreen;
-    border-radius: 15px;
-    background-color: darkslategrey;
-    margin: 50px;
-}
-
-.card h2 {
-    color: chartreuse;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.card {
-    background-color: rgb(4, 59, 32);
-}
-
-.card:hover {
-    background-color: rgb(rgb(36, 30, 30), #1a1613af, rgb(28, 28, 34));
-    color: azure;
-    transform: scale(1.03);
-}
-
-body {
-    background-color: grey;
+.forest{
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 footer {
@@ -138,77 +134,43 @@ footer h1 {
     margin-left: 30px;
 }
 
-.linkimg {
-    width: 300px;
-    height: 300px;
-}
-
-.card-content {
-    padding: 20px;
-}
-
-.top-right {
-    margin: 20px;
-    height: 450px;
-    width: 350px;
-    border-radius: 10px;
-    border: 10px solid darkgreen;
-    margin: 10px;
-}
-
-#sml-proj {
-    margin: 70px;
-    max-height: 40%;
-    max-width: 40%;
-}
-
-#lrg-proj {
-    margin: 50px;
-    padding: 0px;
-}
-
-#lrg-proj img {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-}
-
-.column {}
-
-.columns {
+aside{
+    display: flex;
     justify-content: center;
-    margin: 60px;
+    align-items: center;
 }
 
-.linkimg {
-    border-radius: 10px;
-}
-
-#Projects h2 {
-    margin-top: 50px;
-    margin-left: 50px;
-    color: chartreuse;
-    font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-
-#meName {
-    font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: chartreuse;
-    font-style: italic;
-    font-weight: bold;
-}
-
-#meJob {
-    font-size: 28px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: chartreuse;
-    font-style: italic;
-    font-weight: bold;
-}
-
-img:hover {
+.linkedin:hover, .github:hover, .email:hover {
     cursor: pointer;
+    color: lightblue;
+}
+
+.project-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.important-project {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.less-important-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.project {
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
