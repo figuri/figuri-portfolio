@@ -214,6 +214,7 @@ aside {
 .project:hover, .important-project:hover {
     cursor: pointer;
     background-color: darkslateblue;
+    transform: scale(1.03);
 }
 
 .header {
