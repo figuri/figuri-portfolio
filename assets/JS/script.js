@@ -1,26 +1,36 @@
- // Get all the image elements by their class name
- const images = document.querySelectorAll('.linkimg');
+const skyfinder = document.getElementById('important-project')
+const codeQuiz = document.getElementById('code-quiz')
+const weatherDashboard = document.getElementById('weather-dashboard')
+const workDayScheduler = document.getElementById('work-day-scheduler')
+const passwordGenerator = document.getElementById('password-generator')
 
- // Convert the NodeList to an array using Array.from
- const imageArray = Array.from(images);
 
- // Add a click event listener to each image
- imageArray.forEach(image => {
-     image.addEventListener('click', function(event) {
-         // Prevent the default click behavior of the image
-         event.preventDefault();
+// make functions for going to links for each project in a new tab
 
-         // Get the parent card element
-         const cardContent = this.parentNode;
+function goToSkyFinder() {
+    window.open("https://ssherp.github.io/SkyFinder-project/");
+}
 
-         // Get the link URL from the associated anchor (a) element
-         const linkElement = cardContent.querySelector('a.title');
-         const link = linkElement.getAttribute('href');
+function goToCodeQuiz() {
+    window.open("https://figuri.github.io/Quizzo/");
+}
 
-         // Check if the link is not empty
-         if (link) {
-             // Open the link in a new tab
-             window.open(link, '_blank');
-         }
-     });
- });
+function goToWeatherDashboard() {
+    window.open("https://figuri.github.io/4-cast-app/");
+}
+
+function goToWorkDayScheduler() {
+    window.open("https://figuri.github.io/PLANIT/");
+}
+
+function goToPasswordGenerator() {
+    window.open("https://figuri.github.io/YoushallnotPass/");
+}
+
+// add event listeners to each project
+
+skyfinder.addEventListener('click', goToSkyFinder);
+codeQuiz.addEventListener('click', goToCodeQuiz);
+weatherDashboard.addEventListener('click', goToWeatherDashboard);
+workDayScheduler.addEventListener('click', goToWorkDayScheduler);
+passwordGenerator.addEventListener('click', goToPasswordGenerator);
